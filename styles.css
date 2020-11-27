@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+
+body {
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: white;
+    width: 679px;
+    height: 838px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#task {
+    width: 600px;
+    height: 45px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #EBEBEB;
+    padding-left: 15px;
+    color: #5E5E5E;
+    margin-top: 5px;
+    outline: none;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 27px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+ol {
+    padding: 0;
+}
+
+.task {
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-top: 11px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.completed-task {
+    background-color: #E0FFE3;
+    text-decoration: line-through;
+}
+
+.button {
+    background-color: white;
+    outline: none;
+    margin: 0 10px 0 12px;
+    border-radius: 12px;
+    border: 4px solid #e3e3e3;
+    height: 40px;
+    width: 40px;
+    transition: border-color 0.1s;
+    transition-timing-function: linear;
+}
+
+.completed-button {
+    border-color: #9BD796;
+}
+
+button:hover {
+    border-color: #9BD796;
+}
