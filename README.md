@@ -3,3 +3,7 @@
 - Enter to add new task.
 - Left click on button to complete/uncomplete task.
 - Shift + left click on botton to delete task.
+
+## Project To-Do
+- [ ] Task persistence
+- [ ] Device display optimisation
