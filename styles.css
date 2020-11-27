@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "Roboto";
-    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-}
-
 body {
     background-color: #EDEDED;
     display: flex;
@@ -23,11 +18,11 @@ header {
     flex-direction: column;
 }
 
-#task {
+#task-input {
     width: 600px;
     height: 45px;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #EBEBEB;
     padding-left: 15px;
     color: #5E5E5E;
@@ -36,7 +31,7 @@ header {
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 36px;
     margin-top: 27px;
@@ -44,7 +39,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 14px;
     margin-top: 0px;
@@ -55,7 +50,7 @@ ol {
 }
 
 .task {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     padding-left: 0px;
     width: 100%;
@@ -82,14 +77,15 @@ ol {
     border: 4px solid #e3e3e3;
     height: 40px;
     width: 40px;
-    transition: border-color 0.1s;
+    transition: border-width 0.1s;
     transition-timing-function: linear;
 }
 
 .completed-button {
     border-color: #9BD796;
+    border-width: 5px;
 }
 
-button:hover {
-    border-color: #9BD796;
+.button:hover {
+    border-width: 5px;
 }
