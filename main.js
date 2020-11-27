@@ -43,6 +43,7 @@ function modifyTask(e) {
         // Delete task.
         if (e.shiftKey) {
             task.remove();
+            taskCount--;
         }
 
     }
